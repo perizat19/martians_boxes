@@ -15,4 +15,7 @@ def find_cargo(first_loc, second_loc, third_loc, first_weight, second_weight, th
             print(f"Box {i+1} is not at kilometer {kilometer_mark}")
             print(cargo_locations[i])
             print(cargo_locations)
+
+    if total_weight != 713:
+        print("The total weight is not 713. Please try again")
             
